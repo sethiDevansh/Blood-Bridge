@@ -1,4 +1,4 @@
-# Blood Bank Management System
+# Blood Bridge
 
 A comprehensive Blood Bank Management System built using the MERN (MongoDB, Express, React, Node.js) stack and MVN (Model-View-Node) architecture. This application allows users to manage blood donations, track donors, and maintain blood inventory efficiently.
 
