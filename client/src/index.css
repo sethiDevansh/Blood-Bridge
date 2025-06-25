@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+/* ===========
+==== FORM
+=========== */
+
+.form-banner img {
+  margin: 20px; /* Adjusted for smaller screens */
+  margin-top: 30px;
+  height: auto; /* Ensures the image scales proportionally */
+  width: 100%; /* Flexible width */
+  max-width: 900px; /* Ensures the image doesn't stretch too much */
+  border-radius: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column; /* Default to stacking elements vertically */
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px; /* Adds spacing for smaller devices */
+}
+
+/* =============
+====== Loader 
+=============== */
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #fff;
+  border-bottom-color: #ff3d00;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ======================
+--------- Navbar 
+=================== */
+.navbar {
+  background-color: black !important;
+  color: white !important;
+  padding: 10px; /* Add padding for better click targets */
+}
+
+.nav-link,
+.navbar-brand {
+  color: white !important;
+  text-decoration: none; /* Improve accessibility */
+}
+
+/* ======================
+Responsive Styles
+=================== */
+@media (max-width: 768px) {
+  .form-banner img {
+    margin: 20px;
+    margin-top: 20px;
+    width: 90%; /* Slightly smaller for tablets */
+  }
+
+  .form-container {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-banner img {
+    margin: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+
+  .form-container {
+    flex-direction: column;
+    padding: 10px; /* Extra padding for small devices */
+  }
+
+  .navbar {
+    font-size: 14px; /* Smaller font size for narrow screens */
+    padding: 5px;
+  }
+}
