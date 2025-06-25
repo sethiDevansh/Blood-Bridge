@@ -13,7 +13,7 @@ A comprehensive Blood Bank Management System built using the MERN (MongoDB, Expr
 
 ## Introduction
 
-The Blood Bank Management System is designed to streamline the process of managing blood donations and inventory. It provides a user-friendly interface for donors, recipients, and administrators to interact with the system effectively.
+Blood Bridge is designed to streamline the process of managing blood donations and inventory. It provides a user-friendly interface for donors, recipients, and administrators to interact with the system effectively.
 
 ## Features
 
